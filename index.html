@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test App</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Truculenta:opsz,wght@12..72,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li class="header__li">
+                <a href="#" class="header__logo">Venture.Core</a>
+              </li>
+              <li class="header__li">
+                <div class="desktop__menu">
+                  <a class="menu__item" href="#">About</a>
+                  <a class="menu__item" href="#">Why us</a>
+                  <a class="menu__item" href="#">Destinations</a>
+                  <a class="menu__item" href="#">Reviews</a>
+                  <a class="menu__item" href="#">Gallery</a>
+                </div>
+                <button type="button" class="header__btn">
+                  <img src="./public/phoneBtn.svg" alt="button for call request">
+                </button>
+                <div class="header__burger">
+                  <input id="header__toggle" type="checkbox" class="header__toggle" />
+                  <label class="header__burger-btn" for="header__toggle">
+                    <span></span>
+                  </label>
+                  <ul class="menu__box">
+                    <li><a class="menu__item" href="#">About</a></li>
+                    <li><a class="menu__item" href="#">Why us</a></li>
+                    <li><a class="menu__item" href="#">Destinations</a></li>
+                    <li><a class="menu__item" href="#">Reviews</a></li>
+                    <li><a class="menu__item" href="#">Gallery</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="socialMedia">
+        <div class="socialMedia__left">
+          <nav class="socialMedia__nav">
+            <ul class="socialMedia__ul">
+              <li>
+                <button type="button" class="socialMedia__btn">
+                  <img src="public/twitter.png" alt="twitter button">
+                </button>
+              </li>
+              <li>
+                <button type="button" class="socialMedia__btn">
+                  <img src="public/instagram.png" alt="instagram button">
+                </button>
+              </li>
+              <li>
+                <button type="button" class="socialMedia__btn">
+                  <img src="public/facebook.png" alt="facebook button">
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="socialMedia__right">
+          <nav class="socialMedia__nav">
+            <ul class="socialMedia__ul socialMedia__rght-ul">
+              <li class="first">01</li>
+              <li class="second">02</li>
+              <li class="third">03</li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section class="heroSection">
+          <div class="container">
+            <div class="heroSection__container">
+              <p class="heroSection__p">Explore</p>
+              <h1 class="heroSection__h1">Machu <span class="break">picchu</span></h1>
+              <div class="hor_container">
+                <p class="heroSection__rightNow">right now</p>
+                <p class="heroSection__description">Office ipsum you must be muted. If that's businesses best ideal weaponize catching drawing- board streamline today. Both finance read culture read dog. Pee live due business land elephant air tentative ditching. </p>  
+              </div>
+             <button type="button" class="heroSection__btn">book now</button>
+              <div class="heroSection__caruosele">
+                <div class="caruosele__arrow">
+                  <button class="caruosele__btn-left inactiveBtn">
+                    <img src="./public/Arrow.svg" alt="Arrow swipe left" class="inactiveBtn__img">
+                  </button>
+                  <button class="caruosele__btn-right">
+                    <img src="./public/Arrow.svg" alt="Arrow swipe right">
+                  </button>
+                </div>
+                <div class="caruosele__blocks">
+                  <div class="card peru">
+                    <img src="./public/Peru.jpg" alt="Machu Picchu, Peru" class="card__img">
+                    <p class="card__text text_peru">Machu Picchu, Peru</p>
+                  </div>
+                  <div class="card inactive swiz">
+                    <img src="./public/Switzerland.jpg" alt="Beromünster, Switzerland" class="card__img">
+                    <p class="card__text text_swiz inactive">Beromünster, Switzerland</p>
+                  </div>
+                  <div class="card usa">
+                    <img src="./public/USA.jpg" alt="New York, USA" class="card__img">
+                    <p class="card__text text_usa inactive">New York, USA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="stroke">
+        <div class="marquee">
+          <div class="marquee__inner">
+            <img src="public/airlines.png" alt="airlines logo">
+            <img src="public/bookinh.png" alt="booking logo">
+            <img src="public/google.png" alt="google logo">
+            <img src="public/hyuindai.png" alt="hyundai logo">
+            <img src="public/ryanair.png" alt="ryanair logo">
+            <img src="public/webflow.png" alt="webflow logo">
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
